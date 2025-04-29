@@ -56,7 +56,7 @@ POST /report
 {
   "startDate": "7daysAgo",
   "endDate": "today",
-  "dimensions": ["platform_portal", "city", "deviceCategory"],
+  "dimensions": ["customEvent:platform_portal", "city", "deviceCategory"],
   "metrics": ["eventCount", "activeUsers"],
   "filters": [
     { "field": "city", "value": "Casablanca" },
